@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /jekyll-playground
+exclude: [README.md]
