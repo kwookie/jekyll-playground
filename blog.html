@@ -2,8 +2,14 @@
 layout: blog
 title: Blog
 ---
+<h1>Planeten</h1>
+<ol>
+{% for planet in site.data.planet-types %}
+    <li>{{planet.title}}</li>
+{% endfor %}
+</ol>
 
-<h1>Alle Nachrichten</h1>
+<h2>Alle Nachrichten</h2>
 
 <ul>
     {% for articles in site.posts %} 
