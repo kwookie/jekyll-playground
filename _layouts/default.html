@@ -2,18 +2,12 @@
 <html>
     {% include head.html %}
     <body>
+        {% include nav.html %}
 
-        <header><strong>Learn today</strong></header>
-        <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-                <li><a href="{{site.baseurl}}/news.html">News</a></li>
-            </ul>
-        </nav>
+        <div class="main">
+            {{content}}
 
-        {{content}}
-
-
-
+        </div>
+        {% include footer.html %}
     </body>
 </html>
