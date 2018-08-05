@@ -1,10 +1,10 @@
 ---
 layout: blog-article
-title: First coding tips post
+title: the third post
 meta: Learning Jekyll is actually pretty easy, you just have to understand how the different parts work together
-category: coding-tips
+category: blog
 ---
-Second
+Third
 
 * One
 * Two

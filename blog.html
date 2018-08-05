@@ -1,0 +1,15 @@
+---
+layout: blog
+title: Blog
+---
+
+<h1>Alle Nachrichten</h1>
+
+<ul>
+    {% for articles in site.posts %} 
+    <li>
+        <a href="{{site.baseurl}}{{articles.url}}">{{articles.title}}</a>
+        <p>{{articles.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
